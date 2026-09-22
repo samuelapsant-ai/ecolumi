@@ -1,0 +1,6 @@
+{
+  "name": "Ecolumi — Luminárias Sustentáveis",
+  "description": "Site institucional da Ecolumi, ONG de Itaquera (São Paulo) que transforma palitos de sorvete em luminárias sustentáveis através do trabalho coletivo e educação ambiental.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

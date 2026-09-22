@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* ==========================================================================
+       VARIÁVEIS DE COR INSTITUCIONAL — ECOLUMI
+       Para alterar as cores da ONG, edite os valores hexadecimais abaixo:
+       ========================================================================== */
+    --laranja-ecolumi: #F58220;
+    --laranja-ecolumi-escuro: #DC6F13;
+    --laranja-ecolumi-suave: #FFF7ED;
+    --laranja-ecolumi-borda: #FDC89B;
+
+    --branco-ecolumi: #FFFFFF;
+
+    /* Tons discretos de apoio: madeira clara, areia e grafite editorial */
+    --madeira-clara: #F9F7F2;
+    --madeira-borda: #EAE4D6;
+    --areia: #EFE9DF;
+    --grafite-ecolumi: #23201C;
+    --grafite-suave: #59554E;
+    --grafite-mutado: #8A857D;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--branco-ecolumi);
+    color: var(--grafite-ecolumi);
+  }
+
+  code, kbd, samp, pre, .font-mono {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+}
+
+/* Detalhes sutis inspirados na textura de réguas e palitos de sorvete */
+.bg-wood-grain {
+  background-color: #F9F7F2;
+  background-image: radial-gradient(#E8E1D1 0.75px, transparent 0.75px);
+  background-size: 16px 16px;
+}
+
+.border-wood {
+  border-color: #E8E2D5;
+}
